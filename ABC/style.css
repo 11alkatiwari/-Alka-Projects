@@ -1,0 +1,128 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar {
+   padding: 0em;
+    text-align: center;
+  } 
+  .logo {
+    padding: auto;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: -10px;
+  }
+  .logo img {
+    width: 80px; 
+    height: auto;
+    vertical-align: middle;
+  }
+  .btn{
+    background-color: #4d39bc;
+    color: #fff;
+    padding: 10px;
+    font-size: small;
+    
+  }
+  .card-img {
+    transition: all 0.5s;
+  }
+  .card-img:hover{
+    transform: scale(1.15);
+  }  
+
+  .containers{
+    background-color: black;
+    text-justify: auto;
+  }
+.containerr{
+  background-color: rgb(145, 110, 64);
+  text-align: center;
+}
+.containere{
+  background-color: rgb(188, 62, 37);
+}
+.nav-links {
+  text-decoration: none;
+  color: #ce1717;
+  transition: color 0.5s ease;
+}
+.nav-links:hover{
+  color: #0066cc;
+}
+.containerrr{
+  padding-top: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.container {
+  position: relative;
+  display: inline-block; 
+}
+
+.text-overlay {
+  position: absolute;
+  text-align: center;
+  top: 25%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  font-size: 20px;
+  color: #170c0c;
+  font-family: Arial, sans-serif;
+  background-color: #d3d6d9; 
+  padding: 10px; 
+  border: 5px solid #150c0c; 
+}
+.const{
+  text-shadow: black;
+  margin-top: 20px;
+   height: 520px;
+   background-image: linear-gradient(to right, rgb(251, 243, 248), rgb(251, 244, 249));
+   transition: 0.15 ease-in-out;
+   color: #1c5793;
+   padding-left: 10%;
+   text-align: left;
+}
+.Caps{
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 10;
+}
+.containerss{
+  color: rgb(90, 3, 68);
+    text-align: center;
+}
+.containerss h2{
+  color: #150c0c;
+  font-family: Arial, sans-serif;
+  padding-top: 5%;
+}
+input, textarea{
+  display: block;
+  text-align: left;
+  border: 2px solid;
+  /* border-radius: 6px; */
+  outline: none;
+  font-size: 17px;
+  width: 20%;
+  margin: 11px;
+}
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.btns{
+  background-color: purple;
+  color: aliceblue;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid;
+  cursor: pointer;
+}

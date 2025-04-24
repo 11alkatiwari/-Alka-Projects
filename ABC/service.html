@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #343a40 !important;
+        }
+        .navbar-nav .nav-link {
+            color: #f8f9fa !important;
+            font-weight: bold;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #ffc107 !important;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?event,celebration') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            color: white;
+            text-align: center;
+        }
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1395px;
+            height: 420px;
+            background-image: url('https://jannatevents.com/wp-content/uploads/2022/08/wedding-event-management.jpg');
+            
+        }
+        .hero h1 {
+            position: relative;
+            z-index: 1;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+        }
+        .parallax {
+            background-image: url('https://tse2.mm.bing.net/th?id=OIP.SrI3jqrsRYwl0AwWVa3ioQHaE8&pid=Api&P=0&h=180');
+            min-height: 300px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+    </style>
+    </head>
+
+    <body>
+        <!-- <img class="bg" src="https://wallpaperaccess.com/full/127079.jpg" alt="container"> -->
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="log.png" alt="Logo" height="50"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="service.html">Our Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                        </ul>
+                        <a class="btn btn-warning ms-3" href="reg.php">Sign Up</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="hero">
+                <div class="hero-overlay"></div>
+                <h1>Our Event Management Services</h1>
+            </section>
+        
+            <!-- Services Section -->
+            <div class="container my-5">
+                <h2 class="text-center mb-4">What We Offer</h2>
+                <p class="text-center text-muted">From corporate conferences to dream weddings, we bring your vision to life with flawless execution.</p>
+                <div class="row g-4">
+                    <!-- Service 1 -->
+                    <div class="col-md-4">
+                        <div class="card service-card shadow-lg border-0">
+                            <img src="https://youthincmag.com/wp-content/uploads/2018/12/event-management.jpg" height="280px" class="card-img-top" alt="Wedding Planning">
+                            <div class="card-body">
+                                <h5 class="card-title">Wedding Planning</h5>
+                                <p class="card-text">We create dream weddings with elegance and perfection, from venue selection to the final farewell.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Service 2 -->
+                    <div class="col-md-4">
+                        <div class="card service-card shadow-lg border-0">
+                            <img src="https://4.bp.blogspot.com/-h5cQRiymgF0/WMZO94xknAI/AAAAAAAAI6k/OFmwGEwZ0foBxSS8bZPu3gjezMKBblncwCLcB/s1600/Event+Management+Companies+in+the+Philippines.jpg" height="280px" class="card-img-top" alt="Corporate Events">
+                            <div class="card-body">
+                                <h5 class="card-title">Corporate Events</h5>
+                                <p class="card-text">Professional event planning for business conferences, seminars, and product launches.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Service 3 -->
+                    <div class="col-md-4">
+                        <div class="card service-card shadow-lg border-0">
+                            <img src="https://wallpapercave.com/wp/wp7488372.jpg" height="280px" class="card-img-top" alt="Birthday Parties">
+                            <div class="card-body">
+                                <h5 class="card-title">Birthday Parties</h5>
+                                <p class="card-text">Make birthdays special with personalized themes, decorations, and entertainment.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Service 4 -->
+                    <div class="col-md-4">
+                        <div class="card service-card shadow-lg border-0">
+                            <img src="https://images.pexels.com/photos/1120162/pexels-photo-1120162.jpeg?cs=srgb&dl=applause-audience-band-celebration-1120162.jpg&fm=jpg" height="280px" class="card-img-top" alt="Concerts & Live Shows">
+                            <div class="card-body">
+                                <h5 class="card-title">Concerts & Live Shows</h5>
+                                <p class="card-text">Full-scale event management for concerts, live performances, and large-scale entertainment.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Service 5 -->
+                    <div class="col-md-4">
+                        <div class="card service-card shadow-lg border-0">
+                            <img src="https://d1tm14lrsghf7q.cloudfront.net/media/files/rtf/2017_02_FRAME/teamLab-TB/waterfall-6.jpg" height="280px" class="card-img-top" alt="Exhibitions & Trade Shows">
+                            <div class="card-body">
+                                <h5 class="card-title">Exhibitions & Trade Shows</h5>
+                                <p class="card-text">End-to-end solutions for exhibitions, trade fairs, and promotional events.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Service 6 -->
+                    <div class="col-md-4">
+                        <div class="card service-card shadow-lg border-0">
+                            <img src="https://www.munamommy.com/wp-content/uploads/2019/04/Screen-Shot-2019-04-06-at-12.18.42-PM.png" height="280px" class="card-img-top" alt="Theme Parties">
+                            <div class="card-body">
+                                <h5 class="card-title">Theme Parties</h5>
+                                <p class="card-text">Customized theme-based parties for birthdays, anniversaries, and special celebrations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Parallax Section -->
+            <section class="parallax">
+                <div>
+                    <h2 class="display-4"><b>Creating Unforgettable Experiences</b></h2>
+                </div>
+            </section>
+        
+            <!-- Detailed Service Descriptions -->
+            <div class="container my-5">
+                <h2 class="text-center mb-4">Why Choose Us?</h2>
+                <p>
+                    With years of experience in the event industry, we pride ourselves on delivering top-notch services tailored to each client’s needs. 
+                    Whether it's an intimate gathering or a grand festival, our team of experts ensures everything is planned and executed to perfection.
+                </p>
+                <ul>
+                    <li><b>Professional Event Coordination:</b> A dedicated team to handle every aspect of your event.</li>
+                    <li><b>Creative & Customized Solutions:</b> Unique themes and decor tailored to your preferences.</li>
+                    <li><b>Budget-Friendly Packages:</b> Flexible pricing to fit your budget without compromising quality.</li>
+                    <li><b>High-Quality Vendor Partnerships:</b> Trusted suppliers and vendors to ensure the best services.</li>
+                </ul>
+            </div>
+        
+            <!-- Call-To-Action (CTA) Section -->
+            <section class="py-5 text-center text-light" style="background-color: #007bff;">
+                <div class="container">
+                    <h2>Let's Plan Your Perfect Event</h2>
+                    <p class="lead">We take care of everything, so you can enjoy your event stress-free.</p>
+                    <a href="contact.html" class="btn btn-light btn-lg mt-3">Get in Touch</a>
+                </div>
+            </section>
+        </main>
+        <footer class="text-center h4 bg-dark text-light fixed-buttom">
+            <hr>
+           <b>2024 &copy; All Right Reserved</b> 
+            <hr>    
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

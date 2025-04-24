@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f8f9fa;
+            }
+            .bg {
+                margin-top: 50px;
+                height: 650px;
+                background-image: linear-gradient(to right, rgb(59, 10, 40), rgb(86, 26, 109));
+                transition: 0.15 ease-in-out;
+                color: aliceblue;
+            }
+            .navbar {
+                background-color: #343a40 !important;
+            }
+            .navbar-nav .nav-link {
+                color: #f8f9fa !important;
+                font-weight: bold;
+            }
+            .navbar-nav .nav-link:hover {
+                color: #ffc107 !important;
+            }
+            .word-box{
+                color: #1b1919;
+                margin-right: 30px;
+                 display: inline-block;
+                 background-color: #f0f0f0;
+                  padding: 5px 10px;
+                  border: 1px solid #e5dede;
+                  border-radius: 5px;
+                 cursor: pointer;
+             }
+  
+            .word-box:hover {
+                color: #c5baba;
+                 background-color: #181717;
+                  border-color: #e3dbdb;
+             }
+             .words{
+                color: #0a0a0a;
+                margin-right: 30px;
+                display: inline-block;
+                 background-color: #f0f0f0;
+                  padding: 5px 10px;
+                  border: 1px solid #e0d9d9;
+                  border-radius: 5px;
+                 cursor: pointer;
+             }
+             .words:hover{
+                color: #c5baba;
+                 background-color: #0a0a0a;
+                  border-color: #e1d7d7;
+             }
+             .wordss{
+                color: #0a0a0a;
+                display: inline-block;
+                 background-color: #f0f0f0;
+                  padding: 5px 10px;
+                  border: 1px solid #c5baba;
+                  border-radius: 5px;
+                 cursor: pointer;
+             }
+             .wordss:hover{
+                color: #e0d9d9;
+                 background-color: #1a1818;
+                  border-color: #f1ecec;
+             }
+            .footer {
+                background-color: #343a40;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="log.png" alt="Logo" height="50"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="service.html">Our Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                        </ul>
+                        <a class="btn btn-warning ms-3" href="reg.php">Sign Up</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li
+                        data-bs-target="#carouselId"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="First slide"
+                    ></li>
+                    <li
+                        data-bs-target="#carouselId"
+                        data-bs-slide-to="1"
+                        aria-label="Second slide"
+                    ></li>
+                    <li
+                        data-bs-target="#carouselId"
+                        data-bs-slide-to="2"
+                        aria-label="Third slide"
+                    ></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img
+                            src="https://wp-media-partyslate.imgix.net/2019/06/photo-5a4726b3-afa7-4fc3-bd57-4ac5006c382a.jpg?auto=compress%2Cformat&fit=scale&h=1280&ixlib=php-1.2.1&q=95&w=2048&wpsize=2k-single" height="600px"
+                            class="w-100 d-block"
+                            alt="First slide"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="https://www.event-hochiminhcity.com/images/service/DSC_493987.jpg" height="600px"
+                            class="w-100 d-block"
+                            alt="Second slide"
+                        />
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            src="https://www.panachemiddleeast.com/blog/wp-content/uploads/2017/03/2-1-1024x710.jpg" height="600px"
+                            class="w-100 d-block"
+                            alt="Third slide"
+                        />
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselId"
+                    data-bs-slide="prev"
+                >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselId"
+                    data-bs-slide="next"
+                >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div><br>
+            <center><h5>Duette Events</h5><h2><i>A Complete Event Management Solution</i></h2><br>
+                <h4>"The best events are those that not only meet your objectives but leave a 
+                lasting impression.<br> At Duette Events, we go beyond expectations to make it happen!"</h4><br><br>
+                    <a class="nav-links" href="about.html"><b>Read More about</b></a><br><br><br>
+            </center>
+
+                    <div
+                        class="container"
+                    >
+                        <div
+                            class="row justify-content-center align-items-center g-2"
+                        >
+                            <div class="col"><div class="card bg-dark text-white">
+                                <img class="card-img" src="https://e1.pxfuel.com/desktop-wallpaper/598/259/desktop-wallpaper-for-event-management-events.jpg" alt="Title" height="250px" />
+                                <div class="card-img">
+                                    <h4 class="card-title"></h4>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col"><div class="card bg-dark text-white">
+                                <img class="card-img" src="https://www.clickhubli.com/blog/wp-content/uploads/2019/06/new-year-theme-party-1024x717-1024x717.jpg" alt="Title" height="270px" />
+                                <div class="card-img">
+                                    <h4 class="card-title"></h4>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col"><div class="card bg-dark text-white">
+                                <img class="card-img" src="https://coreme.ae/img/Services/services-detail/3-2.jpg" alt="Title" height="300px" />
+                                <div class="card-img">
+                                    <h4 class="card-title"></h4>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col"><div class="card bg-dark text-white">
+                                <img class="card-img" src="https://www.tripfore.com/wp-content/uploads/2019/11/4.-afrar.jpg" alt="Title" height="270px" />
+                                <div class="card-img">
+                                    <h4 class="card-title"></h4>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col"><div class="card bg-dark text-white"></div>
+                                <img class="card-img" src="https://i.pinimg.com/originals/f0/65/7a/f0657a1c2f59529944e8912ae11061f3.jpg" alt="Title"height="250px" />
+                                <div class="card-img">
+                                    <h4 class="card-title"></h4>
+                                    <p class="card-text"></p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                   <div class="bg">
+                    <div
+                        class="containerrr"
+                    >
+                        <div
+                            class="row justify-content-center align-items-center g-2"
+                        >
+                            <div class="col-6"><img
+                                src="bg.jpg"
+                                class="img-fluid rounded-top"
+                                alt=""
+                                height="500px"
+                                width="700px"
+                            />
+                            </div>
+                            <div class="col text-center"><center><h1><b>Mission Statement</b></h1></center><br><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam adipisci veritatis eaque 
+                            voluptates, minus nulla cumque sit quas asperiores sint voluptas ipsam id repudiandae magnam sed voluptate quasi iusto aliquam!</div>
+                        </div>
+                    </div>
+                   </div> <br>
+                   <center><h6><a href="service.html">Our Services</a></h6><br><h2>What we offer?</h2><br>
+                    <span class="word-box">Wedding Events</span> 
+                    <span class="words">Birthday Events</span>
+                    <span class="wordss">Fashion Events</span><br><br><br>
+              
+              <div class="container">
+                <img src="http://www.jetfeteblog.com/wp-content/uploads/2015/10/destination-weddings2.jpg" alt="Image" height="500px" width="700px">
+                <div class="text-overlay"><h3>Complete Wedding Events</h3>
+                <h6><i>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Impedit, repudiandae. architecto Autem nam<br>
+                     culpa esse architecto perferendis eveniet<br> repellat, exercitationem veritatis ullam consectetur</h6></i></div>
+              </div></center><br>
+              <div class="const">
+                <div
+                    class="container"
+                >
+                <div
+                    class="row justify-content-center align-items-center g-2"
+                >
+                    <div class="col"><h1>Transform Your Special Day into Unforgettable Moments!</h1><br>
+                   <h5><i style="color: #0a0a0a;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ab facilis mollitia 
+                    ullam dolor? Adipisci molestias vel quas fugit nesciunt iure enim, velit doloribus, facilis 
+                    aspernatur suscipit quos! Assumenda, nihil.</h5></i></div>
+                    <div class="col"><img
+                        src="bir.png"
+                        class="img-fluid rounded-top"
+                        alt=""
+                        height="300px"
+                        width="500px"
+                    />
+                    </div>
+                </div>
+                </div>
+              </div>
+              </div><br><br>
+              <img src="fa.png" height="700px" width="1393px">
+        </main>
+        <footer class="footer">
+            <p>2024 &copy; Duette Events | All Rights Reserved</p>
+        </footer>
+
+    </body>
+</html>
+
+
